@@ -1,4 +1,7 @@
-Air Fryer Market Intelligence
+# Air Fryer Market Intelligence
+
 This project analyzes the U.S. air fryer market using brand-year data aggregated from Amazon purchases between 2019 and 2023 covering the top 10 brands and the analysis is split across three notebooks where Notebook 1 handles data exploration by verifying the dataset and plotting prices, ratings, and market shares over time by brand and summarizing product characteristics, Notebook 2 estimates a logit-style demand model using OLS regression on log market share with brand and year fixed effects and interprets the price coefficient, product feature effects, and model fit, and Notebook 3 uses the demand estimates to back out unit costs, markups, and share-weighted profits for each brand and includes scatter plots and kernel density plots to visualize the results.
+
 The main dataset is air_fryers_clean_brand_year.csv which contains one row per brand per year with columns for purchase count, average price, average rating, market share, and product characteristic shares and a PowerPoint presentation summarizing the findings is also included in two versions where one uses a custom dark green theme matching the Vibrant Green Leaves template.
-AI (Claude by Anthropic) was used to assist with code writing, formatting, and analysis throughout this project including generating the visualizations, structuring the regression model, computing the cost and markup calculations, and helping edit the presentations slides to make them look cleaner, neat, and organized.
+
+AI (Claude by Anthropic) was used to assist with code writing, formatting, and analysis throughout this project including generating the visualizations, structuring the regression model, computing the cost and markup calculations, and producing the final presentation slides.
